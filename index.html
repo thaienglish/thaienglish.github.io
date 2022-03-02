@@ -1,7 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video</title>
+  <style>
+    #hero_video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    .content {
+      position: fixed;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+  </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>Hello everyone, this is ThaiEngli.sh</p>
+
+  <div id="hero">
+    <video autoplay muted loop id="hero_video">
+      <source src="Globe left_2_2.mp4" type="video/mp4">
+    </video>
+    <h1>This is ThaiEngli.sh</h1>
+  </div>
+  <div class="content">
+    <h3>Some text</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit assumenda, doloremque animi corrupti modi
+      repellendus autem minima sapiente cumque, sint dolore error. Ipsam optio adipisci voluptatum dignissimos, nisi
+      incidunt dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia, amet facilis, hic reiciendis
+      ea exercitationem tempore sit pariatur obcaecati ab sapiente maiores dicta explicabo, laborum odio. Est, minima
+      ipsam!</p>
+  </div>
 </body>
+
 </html>
